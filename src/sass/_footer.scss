@@ -1,0 +1,104 @@
+.footer {
+  background-color: rgba($color: #1d1d1d, $alpha: 1);
+  padding: 1.4rem;
+  color: white;
+
+  //font-family: "Josefin Sans", sans-serif;
+ font-family: "Noto Sans JP", sans-serif;
+//font-family: 'Poppins', sans-serif;
+font-size: .9rem;
+
+  &__heading {
+    font-size: 3rem;
+  }
+  &__para {
+    padding-right: 1rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 2rem;
+    opacity: 0.7;
+
+  }
+
+  .contact{
+    font-weight: 300;
+    line-height: 2rem;
+    i{
+        margin-right: 1rem !important;
+    }
+  }
+
+  &__list {
+    ul {
+      margin: 0 1rem;
+    }
+
+    li {
+      outline: none;
+      border: none;
+      background-color: transparent;
+
+      a {
+        opacity: 0.6;
+        color: white;
+        text-decoration: none;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.owner{
+  font-weight: 500;
+}
+
+#headoffice{
+    opacity: 1;
+}
+
+#footer__active {
+  text-transform: capitalize;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(72, 72, 194);
+}
+
+
+.mapouter {
+    position: relative;
+  text-align: right;
+  height: 347px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: inherit;
+  width: inherit;
+  border-radius: 10px;
+}
+
+  @media all and (max-width: 992px) {
+    // #footer__list{
+    //     display: none !important;
+    // }
+    .footer{
+      padding: 1.4rem 1.8rem;
+      
+      &__heading {
+        font-size: 3rem;
+      }
+   
+
+    
+    }
+  
+    .mapouter {
+      position: relative;
+      text-align: right;
+      height: 343px;
+      width: 346px;
+    }
+  
+  }

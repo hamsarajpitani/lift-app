@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3a21161.chunk.css",
+    "main.js": "/static/js/main.1eb51d8d.chunk.js",
+    "main.js.map": "/static/js/main.1eb51d8d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc7fa0f9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc7fa0f9.js.map",
+    "static/css/2.2f9ba80b.chunk.css": "/static/css/2.2f9ba80b.chunk.css",
+    "static/js/2.09a0af26.chunk.js": "/static/js/2.09a0af26.chunk.js",
+    "static/js/2.09a0af26.chunk.js.map": "/static/js/2.09a0af26.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.2f9ba80b.chunk.css.map": "/static/css/2.2f9ba80b.chunk.css.map",
+    "static/css/main.a3a21161.chunk.css.map": "/static/css/main.a3a21161.chunk.css.map",
+    "static/js/2.09a0af26.chunk.js.LICENSE.txt": "/static/js/2.09a0af26.chunk.js.LICENSE.txt",
+    "static/media/homeloan.fceecff8.jpg": "/static/media/homeloan.fceecff8.jpg",
+    "static/media/lift2.478c6584.jpg": "/static/media/lift2.478c6584.jpg",
+    "static/media/lift4.9c732f76.jpg": "/static/media/lift4.9c732f76.jpg",
+    "static/media/lift5.6d65c80f.jpg": "/static/media/lift5.6d65c80f.jpg",
+    "static/media/logo.8e1ccf64.png": "/static/media/logo.8e1ccf64.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc7fa0f9.js",
+    "static/css/2.2f9ba80b.chunk.css",
+    "static/js/2.09a0af26.chunk.js",
+    "static/css/main.a3a21161.chunk.css",
+    "static/js/main.1eb51d8d.chunk.js"
+  ]
+}

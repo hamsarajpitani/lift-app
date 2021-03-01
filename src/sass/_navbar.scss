@@ -1,0 +1,67 @@
+
+
+.navbar{
+    font-family: 'Noto Sans JP', sans-serif;
+     
+    background-color: rgba($color: #000000, $alpha: .8);
+    backface-visibility: hidden;
+    backdrop-filter: blur(10px);
+    
+}
+
+.navbar-brand{  
+    font-weight: 400;
+   
+    img{
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+}
+
+.nav-link{
+    
+    text-transform: capitalize;
+   // font-family: 'Noto Sans JP', sans-serif;
+   // font-family: 'Josefin Sans', sans-serif;
+    //font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    font-size: .9rem;
+    margin-right: 2rem;
+}
+
+// .active_menu{
+//     border: 2px solid white;
+// }
+
+.nav-link.active{
+    color: #fff;
+   
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    background-color: rgba($color: #3d3b3b, $alpha: 1.0);
+    border-radius: 10px;
+    text-transform: capitalize;
+
+    a{
+        
+        margin-bottom: .4rem;
+        &:hover{
+            border-radius: 1px;
+            background-color: #717172; 
+        }
+    }
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    
+}
