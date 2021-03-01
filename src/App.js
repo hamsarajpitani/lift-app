@@ -16,6 +16,7 @@ function App() {
     <>
     <Navbar/>
     <Calculator/>
+    
     <Switch>
       <Route exact path='/' component={Carousel}></Route>
       {/* <Route exact path='/' component={Carouselslide}></Route> */}
@@ -24,6 +25,7 @@ function App() {
       
     </Switch>
     <Chooseus/>
+    
     <Footer/>
     </>
   );
