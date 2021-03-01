@@ -6,6 +6,7 @@ import Services from './Services';
 import Calculator from './Calculator';
 import {Switch,Route,Redirect} from 'react-router-dom';
 import Footer from './Footer';
+import Chooseus from './Chooseus';
 
 // import Contact from './pages/Contact';
 
@@ -22,6 +23,7 @@ function App() {
       {/* <Route exact path='/contact' component={Contact}></Route> */}
       
     </Switch>
+    <Chooseus/>
     <Footer/>
     </>
   );

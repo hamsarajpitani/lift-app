@@ -7,9 +7,9 @@ const Footer = () => {
     <>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-12 mx-auto">
+          <div className="col-12 ">
             <div className="row footer">
-              <div className="col-md-6 footer d-flex flex-column justify-content-start align-content-center ">
+              <div className="col-md-6 footer__contact d-flex flex-column justify-content-start align-content-center ">
                 <h1 className="footer__heading ">Connect With Us</h1>
                 <p className="mt-2 footer__para">
                   we are manufactures in lift cabin, m.s.s.s wooden glass ,
@@ -28,7 +28,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="footer__map d-flex col-md-6 align-items-center justify-content-center">
+              <div className="footer__map mt-1 d-flex col-md-6 align-items-center justify-content-center">
                 <div className="row">
                   <div className="col-md-4">
                     <div className="mapouter">

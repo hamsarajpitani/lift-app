@@ -263,6 +263,89 @@ h1 {
   margin-right: 5px;
 }
 
+/* ---HomePage--- */
+.box-content {
+  padding: 50px 0 90px;
+  color: white;
+}
+
+.title-block .prefix {
+  float: left;
+  font-size: 125px;
+  font-weight: 500;
+  line-height: 120px;
+  margin-right: 20px;
+  color: #ffb619;
+  font-family: "Poppins", sans-serif;
+}
+
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  color: inherit;
+  letter-spacing: 1px;
+}
+
+.box-content.box-style-1 {
+  background: #1a1c1e;
+}
+
+.box-content.box-style-3 {
+  background: #f4f4f4 url(../img/Carousel/lift2.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.box-icon {
+  margin-bottom: 10px;
+}
+
+.box-icon-image {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #ffb619;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.box-icon-aside {
+  overflow: hidden;
+  margin-left: 50px;
+  max-width: 400px;
+}
+
+.box-icon-aside h3 {
+  margin-top: 0;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Box 5---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-content.box-5 {
+  padding: 50px 0 30px;
+}
+
+.whychooseus-desc {
+  margin-top: 100px;
+}
+
+.box-content.box-5 .pet img {
+  max-width: 600px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.box-content.box-3 .title-block .prefix {
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 47px;
+  margin: 10px 7px 0 0;
+  color: #ffb619;
+}
+
 .shadow {
   -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
@@ -274,6 +357,10 @@ h1 {
   color: white;
   font-family: "Noto Sans JP", sans-serif;
   font-size: .9rem;
+}
+
+.footer__contact {
+  padding: 0;
 }
 
 .footer__heading {
@@ -348,7 +435,7 @@ h1 {
 
 @media all and (max-width: 992px) {
   .footer {
-    padding: 1.4rem 1.8rem;
+    padding: 2rem 1rem;
   }
   .footer__heading {
     font-size: 3rem;
